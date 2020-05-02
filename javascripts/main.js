@@ -8,7 +8,7 @@ var  hora = new Date()
 console.log(hora.getHours())
 //
 
-function popus() { 
+function popus(){
     var pregunta = confirm("¿Deseas visitar la página principal?") //true or false
 	if (pregunta){
 		alert("Te envío allí rápidamente")
